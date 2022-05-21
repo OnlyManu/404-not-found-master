@@ -1,0 +1,80 @@
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+:root{
+    --font-primary: 'Space Mono', monospace;
+    --font-footer:  'Montserrat', sans-serif;
+    --font-header:  'Inconsolata', monospace;
+    --color-primary: #333333;
+    --color-secondary: #4F4F4F;
+    --color-white: #FFFFFF;
+    --color-footer: #BDBDBD;
+    --padding-mobile: 23px;
+    --padding-destop: 77px;
+}
+.container{
+    width: 100%;
+    padding-left: var(--padding-mobile);    
+}
+header{
+    display: flex;
+    font-family: var(--font-header);
+}
+.title{
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-family: var(--font-primary);
+}
+.illustration img{
+    height: 238px;
+    width: auto;
+}
+.heading{
+    color: var(--color-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+.message{
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+}
+.btn-home{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    width: 216px;
+    height: 68px;
+}
+footer{
+    display: flex;
+    font-family: var(--font-footer);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
