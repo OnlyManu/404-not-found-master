@@ -83,6 +83,9 @@ main{
     width: 12rem;
     height: 3.77rem;
 }
+.btn-home:hover{
+    background-color: #4b4b4b;
+}
 footer{
     padding-right: var(--padding-mobile);
     margin-bottom: 1.33rem;
@@ -95,6 +98,9 @@ footer{
     font-size: 0.77rem;
     line-height: 0.94rem;
     text-align: center;
+}
+.author a:hover{
+ text-decoration: underline;
 }
 .author a{
     text-decoration: none;
