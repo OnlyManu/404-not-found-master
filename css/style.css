@@ -26,11 +26,9 @@ html{
     padding-left: var(--padding-mobile);    
 }
 header{
-    display: flex;
     font-family: var(--font-header);
     margin-top: 1.11rem;
-    margin-bottom: 3.55rem;
-
+    margin-bottom: 6.743vh;
 }
 .title{
     color: var(--color-primary);
@@ -43,9 +41,9 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 6.322vh;
     font-family: var(--font-primary);
-    margin-bottom: 6.33rem;
+    margin-bottom: 12.012vh;
 }
 .illustration{
     padding-right: var(--padding-mobile);
@@ -63,7 +61,7 @@ main{
     font-size: 2.66rem;
     line-height: 3.94rem;
     letter-spacing: -0.035em;
-    margin-bottom: 1.66rem;
+    margin-bottom: 3.161vh;
 }
 .message{
     color: var(--color-secondary);
@@ -71,9 +69,13 @@ main{
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: -0.035em;
-    margin-bottom: 3.66rem;
+    margin-bottom: 6.954vh;
 }
 .btn-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-white);
     font-family: var(--font-primary);
@@ -99,5 +101,48 @@ footer{
     color: var(--color-footer);
     font-style: normal;
     font-weight: 700;
+}
+@media screen and (min-width: 992px){
+    .container{
+        padding-right: var(--padding-destop);
+        padding-left: var(--padding-destop);
+    }
+    header{
+        margin-top: 3.703vh;
+        margin-bottom: 18.518vh;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        gap: none;
+        margin-bottom: 28.518vh;
+    }
+    .illustration{
+        padding-right: var(--padding-destop);
+    }
+    .illustration img{
+        width: 37.445vw;
+        height: auto !important;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 3.55rem;
+        line-height: 5.27rem;
+        margin-bottom: 3.33vh;
+    }
+    .message{
+        font-size: 1.33rem;
+        line-height: 2rem;
+        letter-spacing: -0.035em;
+        margin-bottom: 5.925vh;
+        width: 21.16rem;
+    }
+    footer{
+        padding: none;
+    }
 }
 
