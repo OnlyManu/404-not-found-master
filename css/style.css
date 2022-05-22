@@ -8,6 +8,7 @@ font-family: 'Space Mono', monospace;
 }
 html{
     box-sizing: border-box;
+    font-size: 18px;
 }
 :root{
     --font-primary: 'Space Mono', monospace;
@@ -17,8 +18,8 @@ html{
     --color-secondary: #4F4F4F;
     --color-white: #FFFFFF;
     --color-footer: #BDBDBD;
-    --padding-mobile: 23px;
-    --padding-destop: 77px;
+    --padding-mobile: 1.27rem;
+    --padding-destop: 4.27rem;
 }
 .container{
     width: 100%;
@@ -27,12 +28,15 @@ html{
 header{
     display: flex;
     font-family: var(--font-header);
+    margin-top: 1.11rem;
+    margin-bottom: 3.55rem;
+
 }
 .title{
     color: var(--color-primary);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 25px;
+    font-size: 1.33rem;
+    line-height: 1.38rem;
     letter-spacing: -0.08em;
     text-transform: uppercase;
 }
@@ -41,40 +45,59 @@ main{
     flex-direction: column;
     gap: 60px;
     font-family: var(--font-primary);
+    margin-bottom: 6.33rem;
+}
+.illustration{
+    padding-right: var(--padding-mobile);
+    display: flex;
+    justify-content: center;
 }
 .illustration img{
-    height: 238px;
+    height: 13.22rem;
     width: auto;
 }
 .heading{
     color: var(--color-primary);
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 71px;
+    font-size: 2.66rem;
+    line-height: 3.94rem;
     letter-spacing: -0.035em;
+    margin-bottom: 1.66rem;
 }
 .message{
     color: var(--color-secondary);
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: -0.035em;
+    margin-bottom: 3.66rem;
 }
 .btn-home{
     background-color: var(--color-primary);
     color: var(--color-white);
     font-family: var(--font-primary);
-    width: 216px;
-    height: 68px;
+    font-size: 0.77rem;
+    width: 12rem;
+    height: 3.77rem;
 }
 footer{
-    display: flex;
+    padding-right: var(--padding-mobile);
+    margin-bottom: 1.33rem;
+}
+.author{
+    color: var(--color-footer);
     font-family: var(--font-footer);
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.77rem;
+    line-height: 0.94rem;
     text-align: center;
+}
+.author a{
+    text-decoration: none;
+    color: var(--color-footer);
+    font-style: normal;
+    font-weight: 700;
 }
 
