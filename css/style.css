@@ -54,8 +54,8 @@ main{
     justify-content: center;
 }
 .illustration img{
-    height: auto;
-    width: 62vw;
+    height: 28vh;
+    width: auto;
 }
 .heading{
     color: var(--color-primary);
