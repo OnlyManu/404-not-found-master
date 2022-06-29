@@ -18,12 +18,16 @@ html{
     --color-secondary: #4F4F4F;
     --color-white: #FFFFFF;
     --color-footer: #BDBDBD;
-    --padding-mobile: 1.27rem;
-    --padding-destop: 4.27rem;
+    --padding-mobile: 6.4vw;
+    --padding-destop: 5.34vw;
 }
 .container{
     width: 100%;
-    padding-left: var(--padding-mobile);    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--padding-mobile);
+    
 }
 header{
     font-family: var(--font-header);
@@ -33,17 +37,16 @@ header{
 .title{
     color: var(--color-primary);
     font-weight: 700;
-    font-size: 1.33rem;
-    line-height: 1.38rem;
+    font-size: 115.2%;
+    line-height: 2.63%;
     letter-spacing: -0.08em;
     text-transform: uppercase;
 }
 main{
     display: flex;
     flex-direction: column;
-    gap: 6.322vh;
+    gap: 6.32%;
     font-family: var(--font-primary);
-    margin-bottom: 12.012vh;
 }
 .illustration{
     padding-right: var(--padding-mobile);
@@ -51,15 +54,15 @@ main{
     justify-content: center;
 }
 .illustration img{
-    height: 13.22rem;
-    width: auto;
+    height: auto;
+    width: 62vw;
 }
 .heading{
     color: var(--color-primary);
     font-style: normal;
     font-weight: 700;
-    font-size: 2.66rem;
-    line-height: 3.94rem;
+    font-size: 230%;
+    line-height: 134%;
     letter-spacing: -0.035em;
     margin-bottom: 3.161vh;
 }
@@ -80,15 +83,19 @@ main{
     color: var(--color-white);
     font-family: var(--font-primary);
     font-size: 0.77rem;
-    width: 12rem;
-    height: 3.77rem;
+    width: 57.6vw;
+    height: 9vh;
 }
 .btn-home:hover{
     background-color: #4b4b4b;
 }
 footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     padding-right: var(--padding-mobile);
-    margin-bottom: 1.33rem;
+    margin-bottom: 2.52vh;
 }
 .author{
     color: var(--color-footer);
@@ -108,6 +115,31 @@ footer{
     font-style: normal;
     font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+    main{
+        padding-left: var(--padding-destop);
+    }
+    .illustration{
+        padding-right: var(--padding-destop);
+    }
+    .content{
+        padding-right: var(--padding-destop);
+    }
+    .heading{
+        font-size: 3.55rem;
+        line-height: 5.27rem;
+    }
+    .message{
+        font-size: 1.33rem;
+        line-height: 2rem;
+        letter-spacing: -0.035em;
+    }
+    .btn-home{
+        width: 28.6vw;
+        height: 7vh;
+    }
+    
+}
 @media screen and (min-width: 992px){
     .container{
         padding-right: var(--padding-destop);
@@ -115,20 +147,18 @@ footer{
     }
     header{
         margin-top: 3.703vh;
-        margin-bottom: 18.518vh;
+        margin-bottom: 14.518vh;
     }
     main{
         display: grid;
-        grid-template-columns: 50% 50%;
-        justify-content: center;
-        gap: none;
-        margin-bottom: 28.518vh;
+        grid-template-columns: 37.44vw 1fr;
+        gap: 8.24vh;
     }
     .illustration{
         padding-right: var(--padding-destop);
     }
     .illustration img{
-        width: 37.445vw;
+        width: 100%;
         height: auto !important;
     }
     .content{
@@ -137,8 +167,9 @@ footer{
     }
     .heading{
         font-size: 3.55rem;
-        line-height: 5.27rem;
+        line-height: 11vh;
         margin-bottom: 3.33vh;
+        width: 40.59vw;
     }
     .message{
         font-size: 1.33rem;
@@ -146,6 +177,10 @@ footer{
         letter-spacing: -0.035em;
         margin-bottom: 5.925vh;
         width: 21.16rem;
+    }
+    .btn-home{
+        width: 15vw;
+        height: 7.5vh;
     }
     footer{
         padding: none;
