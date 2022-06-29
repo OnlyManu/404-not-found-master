@@ -125,7 +125,7 @@ footer{
     .content{
         padding-right: var(--padding-destop);
     }
-    .heading{
+    /*.heading{
         font-size: 3.55rem;
         line-height: 5.27rem;
     }
@@ -133,7 +133,7 @@ footer{
         font-size: 1.33rem;
         line-height: 2rem;
         letter-spacing: -0.035em;
-    }
+    }*/
     .btn-home{
         width: 28.6vw;
         height: 7vh;
