@@ -47,6 +47,7 @@ main{
     flex-direction: column;
     gap: 6.32%;
     font-family: var(--font-primary);
+    margin-bottom: 1vh;
 }
 .illustration{
     padding-right: var(--padding-mobile);
@@ -123,11 +124,11 @@ footer{
         padding-right: var(--padding-destop);
     }
     .heading{
-        font-size: 12vw;
+        font-size: 9.8vw;
         line-height: 5.27rem;
     }
     .message{
-        font-size: 4.8vw;
+        font-size: 4.2vw;
         line-height: 4.80vh;
         letter-spacing: -3.5%;
     }
