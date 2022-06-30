@@ -130,12 +130,13 @@ footer{
     }
     .heading{
         font-size: 7.8vw;
-        line-height: 5.27rem;
+        line-height: 6.48vh;
     }
     .message{
         font-size: 2.8vw;
         line-height: 4.80vh;
         letter-spacing: -3.5%;
+        margin-bottom: 5vh;
     }
     .btn-home{
         width: 28.6vw;
