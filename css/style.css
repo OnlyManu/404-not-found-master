@@ -123,17 +123,17 @@ footer{
         padding-right: var(--padding-destop);
     }
     .content{
-        padding-right: var(--padding-destop);
+        
     }
-    /*.heading{
-        font-size: 3.55rem;
+    .heading{
+        font-size: 12vw;
         line-height: 5.27rem;
     }
     .message{
-        font-size: 1.33rem;
+        font-size: 4vw;
         line-height: 2rem;
-        letter-spacing: -0.035em;
-    }*/
+        letter-spacing: -3.5%;
+    }
     .btn-home{
         width: 28.6vw;
         height: 7vh;
