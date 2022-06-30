@@ -119,17 +119,17 @@ footer{
     font-weight: 700;
 }
 @media screen and (min-width: 768px) {
-    main{
-        padding-left: 10.5vw;
+    .container{
+        padding-left: 12vw;
     }
     .illustration{
-        padding-right: 10.5vw;
+        padding-right: 12vw;
     }
     .content{
-        padding-right: 10.5vw;
+        padding-right: 12vw;
     }
     .heading{
-        font-size: 8.4vw;
+        font-size: 8vw;
         line-height: 5.27rem;
     }
     .message{
