@@ -123,6 +123,9 @@ footer{
     .illustration{
         padding-right: var(--padding-destop);
     }
+    .content{
+        padding-right: var(--padding-destop);
+    }
     .heading{
         font-size: 9.8vw;
         line-height: 5.27rem;
