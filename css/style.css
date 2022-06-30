@@ -120,20 +120,20 @@ footer{
 }
 @media screen and (min-width: 768px) {
     main{
-        padding-left: 8.5vw;
+        padding-left: 10.5vw;
     }
     .illustration{
-        padding-right: 8.5vw;
+        padding-right: 10.5vw;
     }
     .content{
-        padding-right: 8.5vw;
+        padding-right: 10.5vw;
     }
     .heading{
-        font-size: 8.9vw;
+        font-size: 8.4vw;
         line-height: 5.27rem;
     }
     .message{
-        font-size: 4vw;
+        font-size: 3.1vw;
         line-height: 4.80vh;
         letter-spacing: -3.5%;
     }
