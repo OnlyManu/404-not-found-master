@@ -32,7 +32,7 @@ html{
 header{
     font-family: var(--font-header);
     margin-top: 1.11rem;
-    margin-bottom: 6.743vh;
+    margin-bottom: 5.743vh;
 }
 .title{
     color: var(--color-primary);
@@ -47,12 +47,13 @@ main{
     flex-direction: column;
     gap: 6.32%;
     font-family: var(--font-primary);
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 .illustration{
     padding-right: var(--padding-mobile);
     display: flex;
     justify-content: center;
+    margin-bottom: 1vh;
 }
 .illustration img{
     height: 32vh;
