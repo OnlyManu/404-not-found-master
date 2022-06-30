@@ -54,7 +54,7 @@ main{
     justify-content: center;
 }
 .illustration img{
-    height: 30vh;
+    height: 32vh;
     width: auto;
 }
 .heading{
@@ -122,16 +122,13 @@ footer{
     .illustration{
         padding-right: var(--padding-destop);
     }
-    .content{
-        
-    }
     .heading{
         font-size: 12vw;
         line-height: 5.27rem;
     }
     .message{
-        font-size: 4vw;
-        line-height: 2rem;
+        font-size: 4.8vw;
+        line-height: 4.80vh;
         letter-spacing: -3.5%;
     }
     .btn-home{
